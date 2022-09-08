@@ -14,4 +14,5 @@ RUN sudo apt install -y fish
 RUN sudo apt install -y git
 RUN sudo apt install -y vim
 RUN sudo apt install -y npm
+RUN sudo apt install -y ssh
 RUN sudo npm i yarn -g
