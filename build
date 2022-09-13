@@ -1,3 +1,2 @@
-docker build --tag code-server-jdk17 ./
-docker tag code-server-jdk17:latest naturepi/code-server-jdk17
+docker build --tag naturepi/code-server-jdk17 ./
 docker push naturepi/code-server-jdk17
