@@ -24,6 +24,7 @@ RUN apt-get install -y \
     vim \
     ssh \
     squid \
-    iputils-ping 
+    iputils-ping \
+    nginx
 
 RUN rm -rf /var/lib/apt/lists/*
